@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <style>
-        /* Set the size of the div element that contains the map */
-        #map {
-            height: 400px;
-            /* The height is 400 pixels */
-            width: 100%;
-            /* The width is the width of the web page */
-        }
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
     </style>
-</head>
-
-<body>
+  </head>
+  <body>
     <h3>International Space Station Tracker</h3>
     <!--The div element for the map -->
     <div id="map"></div>
-    <script src="./js/app.js"></script>
+    <script src="./js/app.js" ></script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads
     * The key parameter will contain your own API key (which is not needed for this tutorial)
     * The callback parameter executes the initMap() function
     -->
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrHQlrqX4Dy66ywnC-Cs3LiKlhUkR6kvc&callback=initMap">
-        </script>
-</body>
-
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrHQlrqX4Dy66ywnC-Cs3LiKlhUkR6kvc&callback=initMap">
+    </script>
+  </body>
 </html>
